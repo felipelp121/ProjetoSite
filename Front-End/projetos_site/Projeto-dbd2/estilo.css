@@ -1,0 +1,79 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	background: #BDBDBD;
+}
+#navegacao{
+	background: #EFFBF8;
+	height: 50px;
+
+}
+#palavra{
+	padding: 5px 0px 0px; 
+	color: green;
+	float: left;
+	border: 1px solid green;
+}
+#area{
+	width: 720px;
+	margin: 0 auto;
+	border: 1px solid blue;
+}
+#menu{
+	float: right;
+	padding: 15px 0;
+}
+
+
+/* LINK */
+
+a{
+	text-decoration: none;
+	padding: 5px 10px;
+}
+
+a:link{
+	color: red;  
+}
+a:visited{
+	color: red;
+}
+a:hover{
+	background: yellow;
+}
+a:active{
+	background: black;
+}
+.titulo{
+	text-decoration: underline;
+}
+
+.texto{
+	font-family: Jazz LET, fantasy;
+	font-size: 20px;
+	
+}
+
+#area_postagem{
+	margin: 15px;
+	padding: 10px;
+}
+#conteudo{
+	background: white;
+	margin: 10px auto 10px;
+	width: 900px;
+	height: 500px;
+	
+	border: 1 yellow;
+}
+#postagem{
+	font-size: 16px;
+	font-family: Jazz LET, fantasy;
+
+}
+
+.imagem_postada{
+	float: left;
+}

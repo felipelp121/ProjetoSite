@@ -1,0 +1,23 @@
+<script type="text/javascript" src="https://www2.correios.com.br/sistemas/rastreamento/js/sro.js"></script>
+<div class="ctrlcontent">
+
+<div class="form">
+<div class="contentform">
+<form id="sroForm" name="sroForm" method="post" action="https://www2.correios.com.br/sistemas/rastreamento/ctrl/ctrlRastreamento.cfm?" onSubmit="return validaCodigoSro();">
+<input type="hidden" name="acao" id="acao" value="" />
+<fieldset>
+<label>Consulte a situação de seus objetos nos Correios. Digite seu CPF/CNPJ ou at&eacute; 50 c&oacute;digos de 13 d&iacute;gitos cada, separando-os com ponto e v&iacute;rgula. Ex: AA123456789BR;AA987654321BR;AA100833276BR.<br /> 
+<textarea id="objetos" name="objetos" class="f8col fldSRO f3row" style="text-transform:uppercase;" onBlur="this.value=this.value.toUpperCase()" onKeyDown="if (event.keyCode == 13){validaEnter()}"></textarea>
+</label>
+<span>*Para consultas por CPF/CNPJ, será requisitado efetuar login no idCorreios.</span>
+<div class="separator"></div>
+<div class="btnform">
+<input type="submit" id="btnPesq" name="btnPesq" class="btn1 float-right btnSubmit" value="Buscar"/>
+</div>
+</fieldset>
+</form>
+</div>
+</div>
+</div>
+
+<div class="banner-full" data-config='{"stop": true, "time": 7000, "fade": true }'><div class="swiper-container"><div class="swiper-wrapper"><div class="swiper-slide swiper-slide-active"><a  class="loop-full-1"  target="_self"><img src="https://images.tcdn.com.br/761170/themes/93//img/settings/Full-Banner_desktop_frete.jpg?079b7ee9a844f5f4db5e54791ce0154b" alt="banner"></a></div><div class="swiper-slide"><a  class="loop-full-2" href="https://www.clubedomel.com.br/loja/busca.php?loja=761170&palavra_busca=prodapys" target="_self"><img class="swiper-lazy" data-src="https://images.tcdn.com.br/761170/themes/93//img/settings/Full-Banner_novos_desktop.jpg?079b7ee9a844f5f4db5e54791ce0154b" alt="banner"></a></div><div class="swiper-slide"><a  class="loop-full-3" href="https://www.clubedomel.com.br/loja/busca.php?loja=761170&palavra_busca=ac%E1cia+org%E2nico" target="_self"><img class="swiper-lazy" data-src="https://images.tcdn.com.br/761170/themes/93//img/settings/Full-Banner_novos_desktop2alt.jpg?079b7ee9a844f5f4db5e54791ce0154b" alt="banner"></a></div><div class="swiper-slide"><a  class="loop-full-4" href="https://www.clubedomel.com.br/loja/busca.php?loja=761170&palavra_busca=kit+imunidade" target="_self"><img class="swiper-lazy" data-src="https://images.tcdn.com.br/761170/themes/93//img/settings/Full-Banner_novos_desktop3.jpg?079b7ee9a844f5f4db5e54791ce0154b" alt="banner"></a></div><div class="swiper-slide"><a  class="loop-full-5" href="https://www.clubedomel.com.br/loja/busca.php?loja=761170&palavra_busca=mel+zen" target="_self"><img class="swiper-lazy" data-src="https://images.tcdn.com.br/761170/themes/93//img/settings/Full-Banner_novos_desktop4.jpg?079b7ee9a844f5f4db5e54791ce0154b" alt="banner"></a></div><div class="swiper-slide"><a  class="loop-full-6" href="https://www.clubedomel.com.br/propolis/kit-propomax-dia-e-noite" target="_self"><img class="swiper-lazy" data-src="https://images.tcdn.com.br/761170/themes/93//img/settings/Full-Banner_novos_desktop5.jpg?079b7ee9a844f5f4db5e54791ce0154b" alt="banner"></a></div></div>

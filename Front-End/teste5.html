@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Teste</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+</head>
+<body>
+    <script>
+        var teste = {
+            nome: "Felipe",
+            idade: 30
+        }
+        var teste2 = {
+            arroz: "Eduardo",
+            feijao: 20
+        }
+        
+        var recebe = {...teste, ...teste2}
+        recebe.idade = 50
+        console.log(recebe)
+        console.log(teste)
+    </script>       
+</body>
+</html>

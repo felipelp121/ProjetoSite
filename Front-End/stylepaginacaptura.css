@@ -1,0 +1,69 @@
+.formatitulo{
+	width: 1200px;
+	margin: auto;
+	background-color: blue;
+	color: white;
+	padding: 0px;
+}
+
+.titulo{
+	text-align: center;
+}
+
+.banner{
+	background-image: url(imagens/images/people.jpg);
+	background-repeat: no-repeat;
+	margin: auto;
+	width: 1200px;
+	height: 580px;
+	margin-top: -22px;
+}
+
+.section{
+	
+	float: right;
+	background-color: white;
+	width: 350px;
+	height: 500px;
+	margin-top: 30px;
+	margin-right: 20px;
+}
+
+.bg-black{
+	background-color: black;
+}
+
+.sectiontitulo{
+	padding: 10px;
+	text-shadow: black;
+}
+.bg-grey{
+	background-color: grey;
+}
+.rodape{
+	width: 1200px;
+	height: 350px;
+	margin: auto;
+}
+.palestrante{
+	float: left;
+	background-color: blue;
+	text-align: center;
+	width: 200px;
+	height: 300px;
+	margin-left: 250px;
+	margin-top: 30px;
+}
+img{
+	display: block;
+	width: 200px;
+	height: 300px;
+	object-fit: fill;
+}
+
+.texto{
+	float: right;
+	margin-right: 630px;
+	margin-top: 40px;
+	width: 50px;
+}

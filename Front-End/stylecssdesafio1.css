@@ -1,0 +1,36 @@
+.imagem{
+	border-color: red;
+	border: 3px;
+	border-style: solid;
+	font-size: 40px;
+	margin: 80px;
+	margin-left: 350px;
+	padding: 10px;
+	background-image: url("imagens/backgorund.png");
+	background-repeat: no-repeat;
+	background-size: contain;
+	width: 1100px;
+	height: 535px;
+	font-weight: 200;
+	font-family: Arial;
+	letter-spacing: 5px;
+
+}
+
+body{
+	background-color: black;
+}
+
+h1{
+	font-weight: 200;
+	letter-spacing: 5px;
+	padding-left: 50px;
+
+}
+
+li{
+	list-style: none;
+}
+
+
+

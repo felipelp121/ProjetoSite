@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Churrascometro</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='churrasco.css'>
+    <script src='churrasco.js'></script>
+</head>
+<body>
+    <div class="churrasco">
+        <div class="header">
+            <h1>Bem-Vindo ao Churrascometro</h1>
+            <p>Aqui você vai poder calcular as necessidades de compra para o seu churrasco</p>
+        </div>
+        <div class="tabela">
+            <div class="formulario">
+                <form>
+                    <h2>Churrascometro</h2>
+                    <p>Quantidade de Adultos</p>
+                    <input type="number" placeholder="Adultos" class="informulario2" name="adulto" id="adulto">
+                    <p>Quantidade de Crianças</p>
+                    <input type="number" placeholder="Crianças" class="informulario2" name="crianca" id="crianca">
+                    <p>Tempo de Duração</p>
+                    <input type="number" placeholder="Horas" class="informulario2" name="tempo" id="tempo">
+                    <p></p>
+                    <input type="button" value="Calcular" class="informulario" id="envio" onclick="calculo()">
+                </form>
+                <div id="resultado">
+                    <p>Vai precisar de:</p>
+                    <p id="carninha"></p>
+                    <p id="refrigerantinho"></p>
+                    <p id="cervejinha"></p>   
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

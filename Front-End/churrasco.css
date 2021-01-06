@@ -1,0 +1,65 @@
+body{
+    background-color: rgba(20, 19, 19, 0.822);
+}
+.churrasco{
+    background-image: url(./imagens/churrasco.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 1200px;
+    height: 900px;
+    margin: auto;
+    margin-top: 70px;
+}
+.header{
+    background-color: rgba(185, 182, 182, 0.664);
+    padding-left: 350px;
+    width: 850px;
+    height: 90px;
+    color: blanchedalmond;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: large;
+}
+.tabela{
+    width: 400px;
+    height: 380px;
+    float: right;
+    margin-top: 50px;
+    background-color: whitesmoke;
+    margin-right: 20px;
+    background-position: relative;
+}
+
+.formulario{
+    width: 180px;
+    height: 50px;
+    margin: auto;
+    padding-right: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-position: relative;
+    background-color: blue;
+
+
+}
+.informulario{
+    width: 100px;
+    height: 30px;
+    border-radius: 20px;
+
+    background-color: rgb(14, 187, 14);
+}
+
+.informulario:hover{
+    background-color: rgba(235, 113, 218, 0.897);
+}
+
+.informulario2{
+    width: 200px;
+    height: 30px;
+    border-radius: 10px;
+
+    background-color:white;
+}
+#resultado{
+    background-color: whitesmoke;
+    background-position: relative;
+}
